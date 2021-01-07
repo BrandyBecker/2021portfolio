@@ -1,10 +1,16 @@
 import './projects.css';
+import cok from '../images/cok.png';
+import jcgol from '../images/johnconway.PNG';
+import nasa from '../images/nasa.png';
 
 function Projects() {
   return (
     <div className="Projects">
         <div class="project">
-            <h3 class="title">Connect Our Kids</h3>
+            <div class="top">
+                <h3 class="title" >Connect Our Kids</h3>
+                <img class="banner" src={cok}/>
+            </div>
             <div class="techstack section">
                 <h4>TechStack:</h4>
                 <ul>
@@ -57,7 +63,10 @@ function Projects() {
         </div>
 
         <div class="project">
-            <h3 class="title">John Conway's Game of Life</h3>
+            <div class="top">
+                <h3 class="title">John Conway's Game of Life</h3>
+                <img class="banner" src={jcgol}/>
+            </div>
             <div class="techstack section">
                 <h4>TechStack:</h4>
                 <ul>
@@ -95,7 +104,10 @@ function Projects() {
         </div>
 
         <div class="project">
-            <h3 class="title">NASA ApOD</h3>
+            <div class="top">
+                <h3 class="title">NASA ApOD</h3>
+                <img class="banner" src={nasa}/>
+            </div>
             <div class="techstack section">
                 <h4>TechStack:</h4>
                 <ul>

@@ -9,8 +9,20 @@
 .project{
     border: 1px solid #555555;
     margin: 2rem;
-    border-radius: 1rem;
+    border-radius: 0rem 1rem;
     box-shadow: 0.5rem 0.5rem 0.5rem 0.1rem #555555;
+}
+.banner{
+    display: block;
+    max-width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0rem 1rem;
+}
+.top{
+    border-bottom: 1px solid #113768;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 .title{
     text-align: center;
@@ -23,6 +35,8 @@ h4 {
 .linktos{
     display: flex;
     justify-content: space-evenly;
+    border-top: 1px solid #113768;
+    border-bottom: 1px solid #113768;
 }
 .linktos > a {
     font-size: 2rem;
@@ -33,4 +47,5 @@ h4 {
 }
 .section{
     margin: 0rem 2rem 1rem 2rem;
+    padding: 1rem;
 }
