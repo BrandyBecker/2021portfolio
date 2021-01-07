@@ -1,0 +1,150 @@
+.Nav{
+    background-color: #c5c5c5;
+    font-family: 'Share Tech', sans-serif;
+    font-size: 1.5rem;
+    --main-link-color: #113768;
+    --hover-link-color: #001a33;
+    --main: #0598ce;
+    --secondary: 	#ffffff;
+    --tertiary: 	#555555;
+}
+a{
+    text-decoration: none;
+    color: var(--main-link-color);
+    cursor:pointer;  
+}
+a:hover{
+    color: var(--hover-link-color);
+}
+.nav-header{
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem;
+}
+.nav-header > h3{
+    font-family: 'Share Tech Mono', monospace;
+    color: var(--main-link-color);
+}
+.nav-header > .contact {
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+}
+.nav-header > .nav-socials > a{
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+}
+.nav-footer{
+    display: flex;
+    justify-content: space-around;
+    margin: .5rem;
+    font-size: 1.25rem;
+}
+/* smol phones */
+@media (min-width: 300px) {
+    .nav-header{
+        flex-wrap: wrap;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid #113768;
+        font-size: 1rem;
+    }
+    h3{
+        font-size: 1.14rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .nav-footer {
+        padding-bottom: 1rem;
+        font-size: 1rem;
+    }
+  }
+
+/* iphone 6/7/8 */
+@media (min-width: 375px) {
+    .nav-header{
+        flex-wrap: wrap;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid #113768;
+    }
+    h3{
+        font-size: 1.14rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .nav-footer {
+        padding-bottom: 1rem;
+    }
+  }
+
+/* iphone 6/7/8 plus */
+@media (min-width: 414px) {
+    .nav-header{
+        flex-wrap: wrap;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid #113768;
+    }
+    h3{
+        font-size: 1.2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .nav-footer {
+        padding-bottom: 1rem;
+    }
+  }
+
+/* medium phones */
+@media (min-width: 480px) {
+    .nav-header{
+        flex-wrap: wrap;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid #113768;
+        font-size: 1rem;
+    }
+    h3{
+        font-size: 1.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .nav-footer {
+        padding-bottom: 1rem;
+        font-size: 1rem;
+    }
+  }
+
+/* ipad */
+@media (min-width: 768px) {
+    .nav-header{
+        flex-wrap: wrap;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid #113768;
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 2.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .nav-footer {
+        padding-bottom: 1rem;
+        font-size: 2rem;
+    }
+  }
+
+/* surface duo */
+@media (min-width: 540px) {
+    .nav-header{
+        flex-wrap: wrap;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid #113768;
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 1.7rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .nav-footer {
+        padding-bottom: 1rem;
+        font-size: 1.5rem;
+    }
+  }
