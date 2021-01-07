@@ -4,7 +4,7 @@ function Nav() {
   return (
     <div className="Nav">
         <div class="nav-header">
-            <a class="contact" href="mailto:Brandy<brandybeckerfsw@gmail.com">
+            <a class="contact" href="mailto:Brandy<brandybeckerfsw@gmail.com?subject=Contacting You:">
                 <i class="far fa-envelope"></i>
             </a>
             
