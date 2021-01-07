@@ -1,0 +1,36 @@
+.Projects{
+    font-family: 'Share Tech', sans-serif;
+    --main-link-color: #113768;
+    --hover-link-color: #001a33;
+    --main: #0598ce;
+    --secondary: 	#ffffff;
+    --tertiary: 	#555555;
+}
+.project{
+    border: 1px solid #555555;
+    margin: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem 0.1rem #555555;
+}
+.title{
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+    color: var(--main-link-color);
+}
+h4 {
+    font-weight: bold;
+}
+.linktos{
+    display: flex;
+    justify-content: space-evenly;
+}
+.linktos > a {
+    font-size: 2rem;
+}
+.linktos > a:hover {
+    font-size: 2rem;
+    color: var(--hover-link-color);
+}
+.section{
+    margin: 2rem;
+}
