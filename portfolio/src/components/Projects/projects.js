@@ -15,6 +15,7 @@ function Projects() {
                 <h4>TechStack:</h4>
                 <ul>
                     <li>React</li>
+                    <li>React Native</li>
                     <li>Redux</li>
                     <li>TypeScript</li>
                     <li>Apollo/GraphQL</li>
